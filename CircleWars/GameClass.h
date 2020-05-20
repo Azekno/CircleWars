@@ -1,8 +1,10 @@
 #pragma once
 
-class Game
+class GameClass
 {
 public:
-	char playerTurnDecision = 'xx01';
+	char playerTurnDecision = 'x';
 	bool gameWinLoseDecision = false;
+
+	void playerTurn();
 };
