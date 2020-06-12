@@ -1,7 +1,7 @@
-#include "GameClass.h"
+#include "Game.h"
 #include "GameFunctions.h"
 
-void GameClass::GameTurnDecision()
+void Game::GameTurnDecision()
 {
 	if (playerTurnDecision == 'x')
 	{
