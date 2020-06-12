@@ -14,7 +14,7 @@ Entity::~Entity()
 
 int Entity::UnitAttack()
 {
-	damage = damage - armour;
+	return damage = damage - armour;
 }
 
 bool Entity::IsAlive()
